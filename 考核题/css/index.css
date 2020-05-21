@@ -1,0 +1,309 @@
+*{margin: 0;padding: 0;}
+#box{
+    width: 1440px;
+    height: 1666px;
+}
+#box .header{
+    width: 1440px;
+    height: 100px;
+    background-color: #ffffff;
+    position: relative;
+}
+#box .header .logo{
+    width: 105px;
+    height: 30px;
+    background-color: #f92525;
+    position: absolute;
+    left:150px;
+    top:30px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+}
+
+#box .header .header-btn{
+    width: 110px;
+    height: 40px;
+    background-color: #f92525;
+    border-radius: 2px;
+    position: absolute;
+    right:150px;
+    top:30px;
+    text-align: center;
+    line-height: 40px;
+    
+}
+#box .header .header-btn a{
+    text-decoration: none;
+    color: #fff;
+}
+#box .header .icon1{
+    position: absolute;
+    right: 350px;
+    top:44px;
+}
+#box .header .icon2 {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+#box .center{
+    width: 1440px;
+    height: 1276px;
+    background: rgb(245, 248, 249);
+    position: relative;
+}
+#box .center .top .left-text{
+    position: absolute;
+    left: 150px;
+    top:71px;
+}
+#box .center .top .left-text .text1{
+    font-family: Raleway-Regular;
+    font-size: 30px;
+    color: #262b2e;
+}
+#box .center .top .left-text .text2{
+    font-family: OpenSans;
+    font-size: 15px;
+    color: #262b2e;
+    opacity: 0.7;
+}
+#box .center .top .nav{
+    width: 500px;
+    height: 40px;
+    position: absolute;
+    right: 150px;
+    top:100px;
+}
+#box .center .top .nav ul li{
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-family: OpenSans-Bold;
+    font-size: 13px;
+    color: #262b2e;
+    list-style: none;
+    float: left;
+}
+#box .center .top .nav ul li a{
+    color: #262b2e;
+    text-decoration: none;
+}
+#box .center .top .nav .cloud{
+    width: 100px;
+    height: 40px;
+    border-bottom: 2px solid #262b2e;
+    position: absolute;
+    left:0;
+}
+#box .center .Rotation-plot-box{
+    width: 560px;
+    height: 288px;
+    background-color: #fff;
+    left: 150px;
+    top: 190px;
+    position: relative;
+}
+#box .center .Rotation-plot-box  .Rotation-plot{
+    width: 538px;
+    height: 280px;
+    position: absolute;
+    top: 4px;
+    left: 11px;
+    overflow: hidden;
+    
+}
+#box .center .Rotation-plot-box .Rotation-plot ul {
+    list-style: none;
+    width: 500%;
+    position: absolute;
+    
+}
+#box .center .Rotation-plot-box .Rotation-plot ul li {
+    float: left;
+}
+#box .center .Rotation-plot-box .Rotation-plot ol {
+    position: absolute;
+    left:43%;
+    bottom: 20px;
+}
+
+#box .center .Rotation-plot-box .Rotation-plot ol li {
+    list-style: none;
+    float: left;
+    width: 10px;
+    height: 15px;
+    background-color: #fff;
+    margin-left: 5px;
+}
+#box .center .Rotation-plot-box .Rotation-plot ol .curren {
+    width:14px;
+    height: 17px;
+}
+
+#box .center .Rotation-plot-box .Rotation-plot .next,
+.last {
+    width: 30px;
+    height: 50px;
+    background-color: #262b2e;
+    opacity: 0.3;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    z-index: 1;
+    display: none;
+}
+#box .center .Rotation-plot-box .Rotation-plot .next {
+    position: absolute;
+    top: 45%;
+    right:10px; 
+}
+#box .center .Rotation-plot-box .Rotation-plot .last {
+    position: absolute;
+    top: 45%;
+    left:10px;
+}
+#box .center .Rotation-plot-box .Rotation-plot .last:hover {
+    color: red;
+}
+#box .center .Rotation-plot-box .Rotation-plot .next:hover {
+    color: red;
+}
+
+#box .center .rightbox{
+    width: 560px;
+    height: 288px;
+    background-color: #fff;
+    position: absolute;
+    right: 150px;
+     top: 190px;
+}
+#box .center .rightbox .rightbox-top{
+    width: 560px;
+    height: 110px;
+    border-bottom: 1px solid rgb(233,233, 234);
+}
+#box .center .rightbox .rightbox-top .rightbox-top-l{
+    font-size: 18px;
+    color: #262b2e;
+    font-family: OpenSans;
+    position: absolute;
+     left: 50px;
+     top: 50px;
+}
+
+#box .center .rightbox .rightbox-top .rightbox-top-r{
+    width: 95px;
+    height: 40px;
+    border-radius: 2px;
+    border: solid 2px rgba(233, 233, 234);
+    opacity: 0.7;
+    color: #262b2e;
+    font-size: 13px;
+    line-height: 40px;
+    text-align: center;
+    position: absolute;
+    right: 50px;
+    top: 40px;
+}
+#box .center .rightbox table {
+    font-family: OpenSans-Bold;
+    font-size: 14px;
+    color: #262b2e;
+}
+#box .center .rightbox table tr{
+    font-family: OpenSans;
+    font-size: 13px;
+    height: 28px;
+}
+
+#box .center .rightbox table .btn{
+    width: 65px;
+    height: 20px;
+    background-color: #5dd054;
+    border-radius: 2px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#box .center .center-f .center-f-top {
+    width: 1140px;
+    height: 349px;
+    background-color: #fff;
+    position: absolute;
+    left:150px;
+    top:495px;
+}
+
+#box .center .center-f .center-f-r {
+    width: 560px;
+    height: 377px;
+    background-color: #fff;
+    position: absolute;
+    right:150px;
+    top:865px;
+}
+#box .center .center-f .center-f-l{
+    width: 560px;
+    height: 377px;
+    background-color: #fff;
+    position: absolute;
+    left:150px;
+    top:865px;
+}
+
+#box .footed{
+    width: 1440px;
+    height: 290px;
+    background-color: rgb(32, 33, 36);
+    position: relative;
+}
+#box .footed .footed-t{
+    height: 253px;
+}
+#box .footed .footed-f{
+    width: 1440px;
+    height: 37px;
+    background-color: #1c1d20;
+}
+#box .footed .footed-t div{
+    width: 105px;
+    height: 30px;
+    background-color: #f92525;
+    position: absolute;
+    left:150px;
+    top:80px;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1;
+}
+#box .footed .footed-c{
+    position: absolute;
+    top: 80px;
+    left: 332px;
+    width: 800px;
+}
+#box .footed .footed-c ul li{
+    width: 100px;
+    height: 30px;
+    float: left;
+    list-style: none;
+    margin-left: 60px;
+}
+#box .footed .footed-c ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Raleway-Bold;
+}
+
+#box .footed .footed-c ul .border{
+    border-bottom: 1px solid #ccc;
+}
+
+
+
